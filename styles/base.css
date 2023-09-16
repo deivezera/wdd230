@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #2CB1E7;
+  --light1-accent-color: #737D74 ;
+  --light2-accent-color: #F4F3F3 ;
+  --dark1-accent-color: #68696B;
+  --dark2-accent-color: #2D3954;
+  --dark3-accent-color: #1D2331;
+  --heading-font: 'Poppins', sans-serif;
+  --paragraph-font:  'Poppins', sans-serif;
+}
+
+
+/*  Look around below...but DON'T CHANGE ANYTHING! */
+
+img {
+  object-fit: contain;
+  display: block;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  max-width: 1080px;
+  margin: 0 auto;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  font-family: var(--paragraph-font);
+}
+
+a {
+  padding: 0 1rem;
+  text-decoration: none;
+  color: var(--light2-accent-color);
+}
+a:hover {
+  color: var(--primary-color);
+  background-color: var(--dark2-accent-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+}
+
+header {
+  background: var(--dark2-accent-color);
+  color: var(--light2-accent-color);
+  padding: 2rem;
+  grid-column: 1 / 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav {
+  background: var(--dark3-accent-color);
+  padding: 2rem;
+  display: grid;
+  row-gap: 1rem;
+  justify-items: center;
+  grid-column: 1 / 4;
+}
+
+
+main {
+  grid-column: 1 / 4;
+}
+main h2, main h3 {
+  margin: 0;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+main h3 {
+  background: var(--dark2-accent-color);
+  color: var(--light2-accent-color);
+}
+
+.card {
+  border: solid 1px var(--dark1-accent-color);
+  border-radius: 0.4rem;
+  margin: 1rem 0;
+}
+
+footer {
+  background: var(--dark2-accent-color);
+  color: var(--light2-accent-color);
+  padding: 2rem;
+  text-align: center;
+  grid-column: 1 / 4;
+}
