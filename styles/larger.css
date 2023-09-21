@@ -1,0 +1,8 @@
+@media screen and (min-width: 500px) {
+  body {
+    grid-template-rows: 300px 60px 2fr 1fr;
+  }
+  nav {
+    flex-direction: row;
+  }
+}
