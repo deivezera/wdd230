@@ -1,0 +1,16 @@
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.card p, .card a {
+  padding: 0 8px;
+}
+.border {
+  border: solid 1px var(--dark1-accent-color);
+  margin: 0.5rem;
+}
+img {
+  object-fit: contain;
+}
