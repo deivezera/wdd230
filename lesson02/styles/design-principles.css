@@ -14,3 +14,24 @@
 img {
   object-fit: contain;
 }
+
+@media screen and (max-width: 500px) {
+  .grid {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1280px) {
+  .grid {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .card:last-child {
+    grid-column: 1/3;
+  }
+}
