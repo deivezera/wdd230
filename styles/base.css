@@ -54,6 +54,9 @@ header {
   justify-content: center;
   gap: 1rem;
 }
+iframe {
+  width: 100%;
+}
 @media screen and (max-width: 500px) {
   nav {
     background: var(--dark3-accent-color);
@@ -74,7 +77,6 @@ header {
     margin: 0 0.2rem;
   }
 }
-
 .toggle {
   position: absolute;
   left: 100%;
@@ -126,6 +128,8 @@ header {
 
 main {
   grid-column: 1 / 4;
+  padding: 0 1rem;
+
 }
 main h2, main h3 {
   margin: 0;
@@ -140,6 +144,9 @@ main h3 {
 
 .card {
   border: solid 1px var(--dark1-accent-color);
+  -webkit-box-shadow: 4px 4px 10px 0px var(--dark2-accent-color);
+  -moz-box-shadow: 4px 4px 10px 0px var(--dark2-accent-color);
+  box-shadow: 4px 4px 10px 0px var(--dark2-accent-color);
   border-radius: 0.4rem;
   margin: 1rem 0;
 }
@@ -153,4 +160,8 @@ footer {
   padding: 2rem;
   text-align: center;
   grid-column: 1 / 4;
+}
+
+.container {
+  display: block;
 }
