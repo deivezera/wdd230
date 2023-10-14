@@ -1,0 +1,32 @@
+@media screen and (max-width: 500px) {
+  .events_container {
+    grid-template-columns: 1fr;
+    margin: 0 1rem;
+  }
+  main section {
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  .cta_container {
+    padding: 1rem;
+  }
+  .cta_container h1 {
+    font-size: 1.5rem;
+  }
+  header {
+    padding: 0.2rem;
+  }
+  /* .logo_container img {
+    width: 40px;
+    height: 40px;
+  } */
+  header h2{
+    display: none;
+  }
+  .button_cta {
+    width: 100%;
+  }
+  main .hero {
+    grid-template-columns: 1fr;
+  }
+}
