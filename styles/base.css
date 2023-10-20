@@ -137,6 +137,11 @@ main h2, main h3 {
   text-align: center;
 }
 
+.visits {
+  text-align: center;
+  padding: 1rem;
+}
+
 main h3 {
   background: var(--dark2-accent-color);
   color: var(--light2-accent-color);
