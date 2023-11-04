@@ -28,6 +28,7 @@
     <nav class="nav">
       <a href="/chamber">Home</a>
       <a href="#events">Events</a>
+      <a href="/chamber/join.html">Join us</a>
     </nav>
     <label class="switch">
       <input id="darkmode" type="checkbox" checked>
@@ -41,7 +42,7 @@
     <section class="hero">
       <div class="cta_container">
         <h1>We promote local business to develop our neighbourhood community, and to provide economic prosperity to our neighbours.</h1>
-        <button class="button_cta"><a href="/chamber/join.html">JOIN US</a></button>
+        <button id="joinButton" class="button_cta">JOIN US</button>
       </div>
       <img width="100%" height="100%" src="images/curitiba.jpg" alt="hero image">
     </section>
@@ -70,5 +71,10 @@
   <footer></footer>
   <script src="scripts/toggle.js"></script>
   <script src="scripts/darkmode.js"></script>
+  <script type="text/javascript">
+    document.getElementById("joinButton").onclick = function () {
+        location.href = "/chamber/join.html";
+    };
+</script>
 </body>
 </html>
