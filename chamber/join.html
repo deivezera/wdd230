@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber - We promote local business to develop our neighbourhood community, and to provide economic prosperity to our neighbours.">
+    <meta name="author" content="Davi Szeremeta Zabroski">
+    <meta property="og:title" content="Agua Verde's Chamber of Commerce">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="https://deivezera.github.io/wdd230/chamber/">
+    <meta property="og:type" content="website">
+    <title>Agua Verde's Chamber of Commerce</title>
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+  </head>
+</head>
+<body>
+  <header>
+    <div class="logo_container">
+      <img src="images/av_logo.png" width="72px" alt="Logo of AV Chamber"> 
+      <h2>Água Verde's Chamber of Commerce</h2>
+    </div>
+    <div class="overlay"></div>
+    <nav class="nav">
+      <a href="/chamber">Home</a>
+    </nav>
+    <label class="switch">
+      <input id="darkmode" type="checkbox" checked>
+      <span class="slider round"></span>
+    </label>
+    <div class="toggle">
+      <span class="toggler"></span>
+    </div>
+  </header>
+  <main>
+    <section>
+      <form method="get" action="/chamber/thankyou.html">
+        <h3>Join the Água verde's chamber of commerce</h3>
+        <div>
+          <label for="firstname">First Name:</label>
+          <input id="firstname" name="firstname" type="text" required>
+        </div>
+        <div>
+          <label for="lastname">Last name:</label>
+          <input id="lastname" name="lastname" type="text" required>
+        </div>
+        <div>
+          <label for="title">Title or position whitin the organization:</label>
+          <input id="title" name="title" type="text" pattern="^[A-Za-z -]{7,}$" required>
+        </div>
+        <div> 
+          <label for="email">Email:</label>
+          <input id="email" name="email" type="email" placeholder="jorge@gmail.com" required>
+        </div>
+        <div> 
+          <label for="phone">Phone:</label>
+          <input id="phone" name="phone" type="tel" required>
+        </div>
+        <div> 
+          <label for="business">Business name:</label>
+          <input id="business" name="business" type="text" required>
+        </div>
+        <div>
+          <fieldset>
+            <legend>Membership level:</legend>
+            <input type="radio" id="np" name="membership" value="np">
+            <label for="np">NP Membership is for non profit organizations and there is no fee.</label><br>
+          
+            <input type="radio" id="bronze" name="membership" value="bronze">
+            <label for="bronze">Bronze Membership</label><br>
+          
+            <input type="radio" id="silver" name="membership" value="silver">
+            <label for="silver">Silver Membership</label><br>
+            <input type="radio" id="gold" name="membership" value="gold">
+            <label for="gold">Gold Membership</label><br>
+          </fieldset>
+        </div>
+        <div> 
+          <label for="businessDescription">Business description:</label><br>
+          <textarea id="businessDescription" name="businessDescription" rows="4" cols="50"></textarea>
+        </div>
+        <input type="hidden" name="timestamp" id="timestamp" value="">
+        
+  
+        <input class="button_cta" type="submit" value="Submit Form">
+  
+      </form>
+    </section>
+  </main>
+  <footer></footer>
+  <script src="scripts/toggle.js"></script>
+  <script src="scripts/darkmode.js"></script>
+  <script src="scripts/join.js"></script>
+</body>
+</html>
