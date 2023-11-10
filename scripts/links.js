@@ -1,5 +1,5 @@
-const baseURL = "http://localhost:5500/";
-const linksURL = "http://localhost:5500/data/links.json";
+const baseURL = "https://deivezera.github.io/wdd230/";
+const linksURL = "https://deivezera.github.io/wdd230/data/links.json";
 const learning = document.getElementById("learning");
 async function getLinks() {
   const response = await fetch(linksURL);
