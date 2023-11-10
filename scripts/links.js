@@ -1,0 +1,26 @@
+const baseURL = "http://localhost:5500/";
+const linksURL = "http://localhost:5500/data/links.json";
+const learning = document.getElementById("learning");
+async function getLinks() {
+  const response = await fetch(linksURL);
+  const data = await response.json();
+  displayLinks(data.lessons);
+}
+
+function displayLinks(weeks){
+  weeks.forEach((week) => {
+    week.links.forEach((link) => {
+      let li = document.createElement('li');
+      let a = document.createElement('a'); 
+  
+      a.setAttribute('href', link.url)
+      a.innerHTML = link.title
+  
+      li.appendChild(a);
+  
+      learning.appendChild(li);
+    })
+  }); 
+}
+
+getLinks();
