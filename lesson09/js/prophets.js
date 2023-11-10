@@ -18,11 +18,9 @@ const displayProphets = (prophets) => {
     portrait.setAttribute('alt', `Portrait of ${prophet.____} ______________`); 
     portrait.setAttribute('width', '340');
     portrait.setAttribute('height', '440');
-
-    card.appendChild(_______); 
     card.appendChild(portrait);
 
     cards.appendChild(card);
   }); 
 }
-getProphetData();
+getProphetData(url);
