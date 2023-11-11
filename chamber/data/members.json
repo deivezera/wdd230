@@ -1,0 +1,67 @@
+{
+  "members": [
+    {
+      "name": "ABC Company",
+      "address": "123 Main Street, Cityville",
+      "phone": "555-1234",
+      "website": "http://www.abc-company.com",
+      "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "membershipLevel": "Gold",
+      "otherInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "name": "XYZ Corporation",
+      "address": "456 Oak Avenue, Townsville",
+      "phone": "555-5678",
+      "website": "http://www.xyz-corp.com",
+      "image": "https://images.unsplash.com/photo-1617526738882-1ea945ce3e56?q=80&w=2095&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "membershipLevel": "Silver",
+      "otherInfo": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "name": "123 Enterprises",
+      "address": "789 Pine Road, Villagetown",
+      "phone": "555-9101",
+      "website": "http://www.123-enterprises.com",
+      "image": "https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "membershipLevel": "Bronze",
+      "otherInfo": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+    },
+    {
+      "name": "Global Innovations Ltd.",
+      "address": "555 Cedar Street, Metropolis",
+      "phone": "555-1122",
+      "website": "http://www.global-innovations.com",
+      "image": "https://plus.unsplash.com/premium_photo-1679279545121-5aab0a12d745?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "membershipLevel": "Platinum",
+      "otherInfo": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore."
+    },
+    {
+      "name": "Tech Wizards Inc.",
+      "address": "789 Elm Lane, Techland",
+      "phone": "555-3344",
+      "website": "http://www.tech-wizards.com",
+      "image": "https://images.unsplash.com/photo-1570126618953-d437176e8c79?q=80&w=1994&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "membershipLevel": "Gold",
+      "otherInfo": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit."
+    },
+    {
+      "name": "Green Energy Solutions",
+      "address": "101 Maple Street, EcoCity",
+      "phone": "555-5566",
+      "website": "http://www.green-energy-solutions.com",
+      "image": "https://images.unsplash.com/photo-1554232456-8727aae0cfa4?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "membershipLevel": "Silver",
+      "otherInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    },
+    {
+      "name": "Dynamic Ventures Co.",
+      "address": "222 Birch Avenue, Progressville",
+      "phone": "555-7788",
+      "website": "http://www.dynamic-ventures.com",
+      "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "membershipLevel": "Bronze",
+      "otherInfo": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+    }
+  ]
+}

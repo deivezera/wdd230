@@ -46,6 +46,7 @@ header {
   display: flex;
   align-items: center;
   width: 100%;
+  z-index: 999999;
 }
 
 main section  {
@@ -58,7 +59,7 @@ main .hero {
   grid-template-columns: 1fr 1fr;
 }
 main section:first-child {
-  padding-top: 90px;
+  padding-top: 116px;
 }
 img {
   object-fit: cover;
@@ -321,4 +322,58 @@ form {
     opacity: 1;
     transform: translateY(0%);
   }
+}
+
+.menu {
+  padding: 1rem;
+  text-align: center;
+}
+
+.grid_members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 340px));
+  grid-template-rows: repeat(auto-fit, minmax(376px, 376px));
+
+  gap: 1rem;
+  justify-content: center;
+}
+.grid_members div {
+  padding: 2rem;
+  border-radius: 8px;
+  border: solid 1px var(--dark2-accent-color);
+  color: var(--dark2-accent-color);
+}
+
+.list_members {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+  gap: 8px;
+
+}
+
+.list_members div img {
+  display: none;
+}
+
+.list_members div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  border: solid 1px var(--dark2-accent-color);
+  padding: 1rem;
+  border-radius: 6px;
+}
+.list_members div .phone {
+  flex: 1;
+  text-align: center;
+}
+.list_members div .website {
+  flex: 1;
+  text-align: end;
 }
