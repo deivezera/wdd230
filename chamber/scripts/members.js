@@ -1,4 +1,4 @@
-const membersURL = "http://127.0.0.1:5500//chamber/data/members.json";
+const membersURL = "https://deivezera.github.io/wdd230/data/links.json";
 const membersList = document.getElementById("membersList");
 async function getMembers() {
   const response = await fetch(membersURL);
