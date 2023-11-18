@@ -119,11 +119,11 @@ img {
 
 .events_container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, 400px);
   justify-content: center;
   height: 100%;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   margin: 0 3rem;
 }
 
