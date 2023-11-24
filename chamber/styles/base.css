@@ -343,7 +343,12 @@ form {
   border: solid 1px var(--dark2-accent-color);
   color: var(--dark2-accent-color);
 }
-
+.grid_members div .website {
+  color: var(--dark2-accent-color);
+}
+.grid_members div .website:hover {
+  color: var(--primary-color);
+}
 .list_members {
   display: flex;
   align-items: flex-start;
@@ -376,4 +381,9 @@ form {
 .list_members div .website {
   flex: 1;
   text-align: end;
+  color: var(--dark2-accent-color);
+}
+
+.list_members div .website:hover {
+  color: var(--primary-color);
 }
