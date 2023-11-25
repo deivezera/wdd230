@@ -121,15 +121,13 @@ img {
   display: grid;
   grid-template-columns: repeat(auto-fill, 400px);
   justify-content: center;
-  height: 100%;
-  align-items: center;
+  align-items: stretch;
   gap: 1rem;
-  margin: 0 3rem;
+  margin: 3rem;
 }
 
 .card {
   padding: 2rem;
-  height: 300px;
   border-radius: 8px;
   border: solid 1px var(--dark2-accent-color);
   color: var(--dark2-accent-color);

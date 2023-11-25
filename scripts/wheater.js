@@ -22,9 +22,7 @@ const successCallback = (position) => {
   getWeather(weatherUrl, position.coords.latitude, position.coords.longitude)
 };
 
-const errorCallback = (error) => {
-  console.log(error);
-};
+const errorCallback = (error) => {};
 
 navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
 

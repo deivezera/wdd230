@@ -32,7 +32,6 @@ const getForecast = async (url, lat, lon)  => {
   const response = await fetch(url + `lat=${lat}&lon=${lon}&appid=478e9aabd0ecdd85f02732bb1bd8416a&units=imperial`);
   const data = await response.json();
   const threeDayForecast = data.list.filter((item, index) => [8,16,24].includes(index))
-  console.log(threeDayForecast)
   threeDayForecast.forEach((item, index) => {
     let forecastText = document.createElement('p');
     forecastText.innerHTML = `${new Date(item.dt_txt).toLocaleString().split(',')[0]} ${item.main.temp.toFixed(0)}ºF - ${item.weather[0].main}`
@@ -43,9 +42,7 @@ const successCallback = (position) => {
   getWeather(weatherUrl, position.coords.latitude, position.coords.longitude)
 };
 
-const errorCallback = (error) => {
-  console.log(error);
-};
+const errorCallback = (error) => {};
 
 navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
 
