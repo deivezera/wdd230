@@ -273,22 +273,6 @@ form {
 .summary li {
   font-size: 1.5rem;
 }
-
-.me {
-  width: 400px;
-  margin: 90px auto;
-}
-.me p,
-.me h1 {
-  letter-spacing: 3px;
-  text-align: center;
-}
-.me p {
-  font-weight: 200;
-}
-.me span {
-  font-weight: bold;
-}
 .social {
   position: fixed;
   bottom: 20px;
