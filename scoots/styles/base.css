@@ -1,11 +1,12 @@
 
 :root {
   --primary-color: #ee7d23;
-  --light1-accent-color: #ffe5c9 ;
+  --light1-accent-color: #ffffff ;
   --light2-accent-color: #ffcb92 ;
+  --light3-accent-color: #ffe5c9;
   --dark1-accent-color: #a76319;
   --dark2-accent-color: #786d67;
-  --dark3-accent-color: #1D2331;
+  --dark3-accent-color: #000;
   --heading-font: 'Poppins', sans-serif;
   --paragraph-font:  'Poppins', sans-serif;
 }
@@ -28,8 +29,8 @@ nav a {
   color: var(--dark1-accent-color);
 }
 nav a:hover {
-  color: var(--primary-color);
-  background-color: var(--light1-accent-color);
+  color: var(--dark1-accent-color);
+  background-color: var(--light3-accent-color);
 }
 
 .logo_container {
@@ -41,7 +42,7 @@ nav a:hover {
 header {
   padding: 1rem;
   color: var(--dark1-accent-color);
-  background-color: transparent;
+  background-color: var(--light1-accent-color);
   position: fixed;
   display: flex;
   align-items: center;
@@ -58,8 +59,8 @@ main .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-main section:first-child {
-  padding-top: 116px;
+main section {
+  padding-top: 140px;
 }
 img {
   object-fit: cover;
@@ -87,7 +88,7 @@ img {
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
-  color: var(--light1-accent-color);
+  color: var(--dark3-accent-color);
   cursor: pointer;
   display: inline-block;
   font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -155,7 +156,7 @@ nav {
 .toggle {
   width: 48px;
   height: 48px;
-  color: var(--dark3-accent-color);
+  color: var(--dark1-accent-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -173,6 +174,17 @@ nav {
 
 .toggler.show-nav::before {
 	content: "✖️";
+}
+
+#weatherId {
+  width: 300px;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 4px;
+  background: var(--primary-color);
+  color: var(--dark3-accent-color);
+  border: 1px solid var(--dark1-accent-color);
+  text-align: -webkit-center;
 }
 
 section form {
@@ -193,7 +205,7 @@ form div input {
   font-family: inherit;
   width: 100%;
   border: 0;
-  border-bottom: 2px solid var(--light1-accent-color);
+  border-bottom: 2px solid var(--light2-accent-color);
   outline: 0;
   font-size: 1.3rem;
   color: var(--dark1-accent-color);
@@ -205,7 +217,10 @@ input[type="radio"] {
   width: auto;
 }
 textarea {
+  width: 100%;
   max-width: 100%;
+  min-width: 100%;
+  display: block;
 }
 
 form {
@@ -217,23 +232,116 @@ form {
   text-align: center;
 }
 
-.grid_members {
+.grid_scoots {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 340px));
-  grid-template-rows: repeat(auto-fit, minmax(376px, 376px));
-
+  grid-template-rows: repeat(auto-fit, minmax(476px, 476px));
+  height: 100%;
   gap: 1rem;
   justify-content: center;
+  padding-bottom: 1rem;
 }
-.grid_members div {
+.grid_scoots div {
   padding: 2rem;
   border-radius: 8px;
   border: solid 1px var(--dark1-accent-color);
   color: var(--dark1-accent-color);
 }
-.grid_members div .website {
+.grid_scoots div .website {
   color: var(--dark1-accent-color);
 }
-.grid_members div .website:hover {
+.grid_scoots div .website:hover {
   color: var(--primary-color);
+}
+
+.reservations, .walkin {
+  display: flex;
+  gap: 1rem;
+}
+
+.summary {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--dark1-accent-color);
+  width: 500px;
+  margin: 0 auto;
+}
+
+.summary li {
+  font-size: 1.5rem;
+}
+
+.me {
+  width: 400px;
+  margin: 90px auto;
+}
+.me p,
+.me h1 {
+  letter-spacing: 3px;
+  text-align: center;
+}
+.me p {
+  font-weight: 200;
+}
+.me span {
+  font-weight: bold;
+}
+.social {
+  position: fixed;
+  bottom: 20px;
+}
+.social ul {
+  padding: 0px;
+  transform: translate(-250px, 0);
+}
+a {
+  text-decoration: none;
+}
+.social a {
+  
+  color: var(--light1-accent-color);
+}
+.social ul li {
+  display: block;
+  margin: 5px;
+  background: var(--primary-color);
+  width: 300px;
+  text-align: right;
+  padding: 10px;
+  border-radius: 0 30px 30px 0;
+  transition: all 1s;
+}
+.social ul li:hover {
+  transform: translate(110px, 0);
+  background: var(--light3-accent-color);
+}
+.social ul li:hover a {
+  color: var(--dark3-accent-color);
+}
+.social ul li:hover i {
+  color: var(--light3-accent-color);
+  background: var(--primary-color);
+  transform: rotate(360deg);
+  transition: all 1s;
+}
+.social ul li i {
+  margin-left: 10px;
+  color: var(--primary-color);
+  background: var(--dark3-accent-color);
+  padding: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  transform: rotate(0deg);
+}
+
+.contact {
+  text-align: center;
+}
+.contact h2 {
+  color: var(--dark1-accent-color);
 }

@@ -38,13 +38,10 @@ const getForecast = async (url, lat, lon)  => {
     weatherId.appendChild(forecastText)
   })
 }
-const successCallback = (position) => {
-  getWeather(weatherUrl, position.coords.latitude, position.coords.longitude)
-};
 
-const errorCallback = (error) => {};
+getWeather(weatherUrl, 20.507404647124215, -86.9539315018571)
 
-navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+
 
 
 

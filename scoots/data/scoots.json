@@ -1,0 +1,106 @@
+{
+  "scoots": [
+    {
+      "name": "Honda Metro Scooter",
+      "image": "https://cdn-fastly.motorcycle.com/media/2023/04/13/11467201/2013-honda-metropolitan-review-motorcycle-com.jpg?size=720x845&nocrop=1",
+      "maxPersons": 1,
+      "reservations": [
+        {
+          "half": 20,
+          "full": 30
+        }
+      ],
+      "walkin": [
+        {
+          "half": 25,
+          "full": 35
+        }
+      ]
+    },
+    {
+      "name": "Honda Dio Scooter",
+      "image": "https://imgd.aeplcdn.com/1280x720/n/cw/ec/150373/dio-right-front-three-quarter-3.png?isig=0",
+      "maxPersons": 2,
+      "reservations": [
+        {
+          "half": 30,
+          "full": 40
+        }
+      ],
+      "walkin": [
+        {
+          "half": 35,
+          "full": 45
+        }
+      ]
+    },
+    {
+      "name": "Honda PCX150 Scoote",
+      "image": "https://s2-autoesporte.glbimg.com/mudDKYSuORRjck_VSoB8YU5s30k=/0x0:1920x1443/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/5/h/KazANoRDAshdzNNdJRfA/hondapcx1502019-1.jpg",
+      "maxPersons": 2,
+      "reservations": [
+        {
+          "half": 40,
+          "full": 50
+        }
+      ],
+      "walkin": [
+        {
+          "half": 45,
+          "full": 55
+        }
+      ]
+    },
+    {
+      "name": "Honda Pioneer ATV",
+      "image": "https://powersports.honda.com/sxs/recutility/-/media/products/family/pioneer-500/trims/trim-main/pioneer-500/2023/2023-pioneer-500-black_forest_green-650x380.png",
+      "maxPersons": 2,
+      "reservations": [
+        {
+          "half": 50,
+          "full": 70
+        }
+      ],
+      "walkin": [
+        {
+          "half": 60,
+          "full": 80
+        }
+      ]
+    },
+    {
+      "name": "Jeep Wrangler - 4 door with a/c",
+      "image": "https://www.jeep.com.br/content/dam/jeep/wrangler/showroom/galeria/img01.jpg",
+      "maxPersons": 5,
+      "reservations": [
+        {
+          "half": 70,
+          "full": 100
+        }
+      ],
+      "walkin": [
+        {
+          "half": 85,
+          "full": 125
+        }
+      ]
+    },
+    {
+      "name": "Jeep Wrangler - 2 door",
+      "image": "https://images.drive.com.au/driveau/image/upload/c_fill,f_auto,g_auto,h_1080,q_auto:eco,w_1920/v1/cms/uploads/PurFk2BTGyZMpJAg5Dra",
+      "maxPersons": 4,
+      "reservations": [
+        {
+          "half": 60,
+          "full": 85
+        }
+      ],
+      "walkin": [
+        {
+          "half": 70,
+          "full": 90
+        }
+      ]
+    }
+  ]
+}
