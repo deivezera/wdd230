@@ -1,11 +1,27 @@
-@media screen and (max-width: 500px) {
-  .events_container {
-    grid-template-columns: 1fr;
-    margin: 0 1rem;
-  }
+@media screen and (max-width: 1000px) and (min-width: 500px) {
+
   main section {
     height: auto;
     margin-bottom: 1rem;
+    padding-top: 80px;
+  }
+  .summary {
+    padding: 0.5rem 1rem;
+    width: 100%;
+  }
+  .cta_container {
+    padding: 1rem;
+  }
+  .cta_container h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  main section {
+    height: auto;
+    margin-bottom: 1rem;
+    padding-top: 80px;
   }
   .cta_container {
     padding: 1rem;
@@ -28,5 +44,9 @@
   }
   main .hero {
     grid-template-columns: 1fr;
+  }
+  .summary {
+    padding: 0.5rem 1rem;
+    width: 100%;
   }
 }
